@@ -1,6 +1,6 @@
 ipython
 jupyter
-jupyter-book >= 0.7.0b
+jupyter-book == v0.10.2
 ghp-import
 numpy
 pandas
