@@ -30,9 +30,9 @@ jobs:
         run: |
           pip install -r requirements.txt
           
-      #- name: Build book TOC file 
-      #  run: |
-      #    jupyter-book toc .
+      - name: Build book TOC file 
+        run: |
+          jupyter-book toc .
         
       # Build the book
       - name: Build the book
