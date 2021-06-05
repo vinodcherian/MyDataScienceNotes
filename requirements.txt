@@ -1,0 +1,9 @@
+ipython
+jupyter
+jupyter-book >= 0.7.0b
+ghp-import
+numpy
+pandas
+matplotlib
+seaborn
+mpmath

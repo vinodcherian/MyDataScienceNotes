@@ -1,0 +1,63 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+- file: intro
+  title: Home
+  
+- part: Python
+  chapters:
+  - file: python_doc/intro
+  - file: python_doc/pythondoc/python_datatypes
+    sections:
+    - file: python_doc/python_datatypes
+    - file: python_doc/intro
+  - file: python_doc/intro
+    sections:
+    - file: python_doc/intro
+    - file: python_doc/intro
+  - file: python_doc/intro
+
+- part: Calculus
+  chapters:
+  - file: calculus_doc/intro
+  - file: calculus_doc/intro
+ 
+- part: Linear Algebra 
+  chapters:
+  - file: linear_algebra_doc/intro
+  - file: linear_algebra_doc/intro
+  
+- part: Probability 
+  chapters:
+  - file: probability_doc/intro
+  - file: probability_doc/intro
+
+- part: Statistics 
+  chapters:
+  - file: statistics_doc/intro
+  - file: statistics_doc/intro
+
+ - part: Data Visualization 
+  chapters:
+  - file: data_visualization_doc/intro
+  - file: data_visualization_doc/intro
+  
+- part: Machine Learning 
+  chapters:
+  - file: machine_learning_doc/intro
+  - file: machine_learning_doc/intro
+ 
+- part: Deep Learning 
+  chapters:
+  - file: deep_learning_doc/intro
+  - file: deep_learning_doc/intro
+
+- part: Natural Language Processing 
+  chapters:
+  - file: natural_language_processing_doc/intro
+  - file: natural_language_processing_doc/intro
+
+- part: Computer Vision 
+  chapters:
+  - file: computer_vision_doc/intro
+  - file: computer_vision_doc/intro
