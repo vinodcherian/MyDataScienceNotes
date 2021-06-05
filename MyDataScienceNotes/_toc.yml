@@ -7,6 +7,7 @@
 - part: Python
   chapters:
   - file: python_doc/intro
+  - title: Python Datatype
   - file: python_doc/pythondoc/python_datatypes
     sections:
     - file: python_doc/python_datatypes
