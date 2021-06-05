@@ -29,6 +29,11 @@ jobs:
       - name: Install dependencies
         run: |
           pip install -r requirements.txt
+          
+      - name: Build book TOC file 
+        run: |
+          jupyter-book toc MyDataScienceNotes/
+        
       # Build the book
       - name: Build the book
         run: |
