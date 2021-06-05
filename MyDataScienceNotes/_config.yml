@@ -23,7 +23,7 @@ latex:
 repository:
   url: https://github.com/vinodcherian/MyDataScienceNotes  # Online location of your book
   path_to_book: MyDataScienceNotes  # Optional path to your book, relative to the repository root
-  branch: master  # Which branch of the repository should be used when creating links (optional)
+  branch: main  # Which branch of the repository should be used when creating links (optional)
 
 # Add GitHub buttons to your book
 # See https://jupyterbook.org/customize/config.html#add-a-link-to-your-repository
@@ -38,4 +38,16 @@ sphinx:
   extra_extensions:
     - 'sphinx_copybutton'
 parse:
-  myst_extended_syntax: true
+  myst_enable_extensions = [
+    "amsmath",
+    "colon_fence",
+    "deflist",
+    "dollarmath",
+    "html_admonition",
+    "html_image",
+    "linkify",
+    "replacements",
+    "smartquotes",
+    "substitution",
+    "tasklist",
+]
