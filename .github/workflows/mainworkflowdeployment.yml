@@ -32,7 +32,7 @@ jobs:
           
       #- name: Build book TOC file 
       #  run: |
-      #    jupyter-book toc MyDataScienceNotes/
+      #    jupyter-book toc .
         
       # Build the book
       - name: Build the book
@@ -43,4 +43,4 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3.6.1
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./MyDataScienceNotes/_build/html
+          publish_dir: ./_build/html
